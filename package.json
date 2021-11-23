@@ -1,0 +1,20 @@
+{
+  "name": "calificaciones",
+  "version": "1.0.0",
+  "description": "API Calificaciones",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/mgrmanu10/calificaciones-propio.git"
+  },
+  "homepage": "https://github.com/mgrmanu10/calificaciones-propio",
+  "scripts": {
+    "start": " node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
