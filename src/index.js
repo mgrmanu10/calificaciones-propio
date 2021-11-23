@@ -69,19 +69,7 @@ app.post(BASE_API_PATH + "/calificaciones", (req,res)=>{
 
 //DELETE CALIFICACIONES
 
-/*app.delete(BASE_API_PATH + "/calificaciones", function(req, res) {
-
-    if(req.query.codMateria && req.query.idEstudiante) {
-      console.log("Borrando calificacion del estudiante: "+ req.query.idEstudiante+" y asignatura: "+req.query.idMateria+". Calificación borrada: " + req.query.calificacion);
-      req.body.calificacion="";
-      res.status(200).send({});
-    } else {
-      res.status(400).send("Por favor, especifica que usuarios quieres borrar");
-    }
-  });
-*/
-
-//LISTAR
+//LISTAR CALIFICACIONES
 
 app.listen(port);
 console.log("Servidor Ready");
