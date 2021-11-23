@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/mgrmanu10/calificaciones-propio",
   "scripts": {
-    "start": " node src/index.js",
+    "start": " node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manuel Garcia",
