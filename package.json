@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url":"https://github.com/mgrmanu10/calificaciones-propio.git"
+    "url": "https://github.com/mgrmanu10/calificaciones-propio.git"
   },
   "homepage": "https://github.com/mgrmanu10/calificaciones-propio",
   "scripts": {
@@ -15,6 +15,7 @@
   "author": "Manuel Garcia",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
   }
 }
