@@ -43,7 +43,13 @@ app.get(BASE_API_PATH + "/calificaciones", (req,res)=>{
             console.log(Date() + "-"+err);
             res.sendStatus(500)
         }else{
-            res.send(calificaciones);
+           //  res.send(calificaciones.map((calificaciones)=>{ 
+           //      delete calificaciones._id;
+           //      console.log(calificaciones);
+           //      return calificaciones;  
+           // }));
+
+           res.send(calificaciones);
         }
     });
 
