@@ -37,7 +37,16 @@ app.get("/",(req,res)=>{
 //GET CALIFICACIONES
 app.get(BASE_API_PATH + "/calificaciones", (req,res)=>{
     console.log(Date() + " - GET /calificaciones");
-    res.send([]);
+    
+    db.find({},(err,calificaciones)=>{
+        if(err){
+            console.log(Date() + "-"+err);
+            res.sendStatus(500)
+        }else{
+            res.send(calificaciones);
+        }
+    });
+
 });
 
 //POST CALIFICACIONES
